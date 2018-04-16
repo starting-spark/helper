@@ -16,6 +16,14 @@ Documenting
 -----------
 * TBD
 
+Deploying
+---------
+To deploy to Heroku:
+
+    $ scripts/deploy_app.sh
+
+https://devcenter.heroku.com/articles/container-registry-and-runtime
+
 Notes
 -----
 * TBD

@@ -10,4 +10,4 @@ if [ -e $old_server_process ]; then
   rm $old_server_process
 fi
 
-rails server
+rails server --binding=0.0.0.0 --port=$PORT

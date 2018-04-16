@@ -10,3 +10,8 @@ COPY scripts/install_dependencies.sh /usr/src/app/scripts/
 RUN scripts/install_dependencies.sh
 
 COPY . /usr/src/app/
+
+# for Heroku
+RUN useradd -m user
+USER user
+CMD scripts/start_app.sh
