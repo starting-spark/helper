@@ -6,3 +6,5 @@ services:
       - scripts/start_app.sh
     env_file:
       - development.env
+    ports:
+      - "3000"
